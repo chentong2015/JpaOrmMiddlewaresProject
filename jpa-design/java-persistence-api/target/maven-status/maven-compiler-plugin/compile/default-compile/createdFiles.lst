@@ -1,9 +1,5 @@
-com/hibernate/entity/manager/DemoEntityManagerApi.class
-com/hibernate/entity/manager/entity/Book.class
-com/hibernate/entity/manager/entity/Sample.class
-com/hibernate/entity/manager/entity/Employee.class
-com/hibernate/entity/manager/query/JpqlQueryRunner.class
-com/hibernate/entity/manager/util/EntityManagerHandler.class
-com/hibernate/entity/manager/DemoEntityManagerQuery.class
-com/hibernate/entity/manager/entity/NamedQueryEntity.class
-com/hibernate/entity/manager/query/JpaEntityManagerQueries.class
+com\entity\manager\handler\EntityManagerHandler.class
+com\entity\manager\entity\Book.class
+com\entity\manager\entity\Employee.class
+com\entity\manager\DemoEntityManagerApi.class
+com\entity\manager\DemoEntityManagerQuery.class

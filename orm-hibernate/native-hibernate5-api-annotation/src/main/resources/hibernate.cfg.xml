@@ -59,6 +59,6 @@
 
         <mapping class="com.hibernate5.annotation.large.object.EntityLargeObjectPlus"/>
 
-        <mapping class="com.hibernate5.annotation.query.BaseEntity"/>
+        <mapping class="entity.BaseEntity"/>
     </session-factory>
 </hibernate-configuration>

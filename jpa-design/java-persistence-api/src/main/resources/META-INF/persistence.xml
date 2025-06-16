@@ -2,16 +2,16 @@
 <persistence xmlns="http://java.sun.com/xml/ns/persistence" version="1.0">
 
     <!-- Hibernate JPA持久层配置文件 -->
+    <!-- 每一个persistence-unit单元的名称必须唯一 -->
     <persistence-unit name="base.jpa.snapshot" transaction-type="RESOURCE_LOCAL">
         <description>Hibernate EntityManager Demo</description>
 
-        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider> <!-- 默认的provider可以不用设置 -->
-        <!-- <provider>org.hibernate.ejb.HibernatePersistence</provider> 旧配置provider已经被废弃 -->
+        <!-- 默认的provider可以不用设置 -->
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
-        <!-- TODO. 程序上动态的注入mapping的entity class
-        <class>com.hibernate.entity.manager.entity.*</class> 注入指定的Entity Class或者选择批量注入 -->
-        <class>com.jpa.entitymanager.Sample</class>
-        <class>com.entity.manager.entity.NamedQueryEntity</class>
+        <!-- TODO. 程序上动态的注入mapping的entity class -->
+        <class>com.entity.manager.entity.Book</class>
+        <class>com.entity.manager.entity.Employee</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
 
         <properties>

@@ -12,11 +12,8 @@
 
     <artifactId>jpa-design</artifactId>
     <modules>
-        <module>core-annotation-validation</module>
-        <module>jakarta-persistence-api</module>
+        <module>annotation-validation</module>
         <module>java-persistence-api</module>
-        <module>java-reflections</module>
-        <module>java-reflections-entity-parser</module>
     </modules>
 
     <properties>

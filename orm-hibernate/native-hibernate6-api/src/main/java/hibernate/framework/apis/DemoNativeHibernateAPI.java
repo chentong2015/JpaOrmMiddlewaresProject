@@ -80,8 +80,6 @@ public class DemoNativeHibernateAPI {
         }
     }
 
-    // 使用Hibernate Native Query原始的查询方式
-    // session.createNativeQuery("SELECT * FROM t_book").addEntity(Book.class)
     private static void testDeleteQuery() {
         try (Session session = sessionFactory.openSession()) {
             Transaction tx = session.beginTransaction();
