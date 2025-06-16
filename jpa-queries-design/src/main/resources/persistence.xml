@@ -6,8 +6,11 @@
         <description>JPA Query Demo</description>
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
+        <class>entity.BaseEntity</class>
         <class>entity.Book</class>
+        <class>entity.Person</class>
         <class>entity.Sample</class>
+
         <class>query_named.NamedQueryEntity</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
 

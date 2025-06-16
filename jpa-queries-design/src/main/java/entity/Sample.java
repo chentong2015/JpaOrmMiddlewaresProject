@@ -2,7 +2,7 @@ package entity;
 
 import jakarta.persistence.*;
 
-@Entity(name = "com.hibernate.entity.manager.entity.Sample")
+@Entity(name = "entity.Sample")
 @Table(name = "t_sample_entity")
 public class Sample {
 

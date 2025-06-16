@@ -1,36 +1,42 @@
 package query_native;
 
-import entity.Sample;
+import entity.Book;
+import helper.EntityManagerHandler;
+import jakarta.persistence.EntityManager;
 import org.hibernate.Session;
 import org.hibernate.query.NativeQuery;
-import org.hibernate.query.Query;
-
 import java.util.List;
 import java.util.Optional;
 
 // TODO. Native SQL 查询被废弃使用
-// session.createNativeQuery(sqlQuery) - hibernate version6
-// session.createSQLQuery(sqlQuery)    - hibernate version5
+// session.createNativeQuery(sqlQuery) - hibernate v6
+// session.createSQLQuery(sqlQuery)    - hibernate v5
 //
-// 创建原始的SQL查询语句, 使用的表名必须是映射出来的DB中的table名称
+// 创建原始SQL语句时表名必须是映射出来的DB中的table名称
 // SQL语法异常: org.hibernate.exception.SQLGrammarException
 public class DemoSqlNativeQuery {
 
-    private final String sqlQuery;
+    public static void main(String[] args) {
+        EntityManager entityManager = EntityManagerHandler.getEntityManager();
+        entityManager.getTransaction().begin();
+        entityManager.persist(new Book(1, "cpp"));
+        entityManager.persist(new Book(2, "javax"));
+        entityManager.getTransaction().commit();
 
-    public DemoSqlNativeQuery(String sqlQuery) {
-        this.sqlQuery = sqlQuery;
+        String sqlString = "SELECT * FROM t_book";
+        List<Book> books = entityManager.createNativeQuery(sqlString, Book.class).getResultList();
+        for (Book b : books) {
+            System.out.println(b);
+        }
+        EntityManagerHandler.close();
     }
 
-    public Query getQuery(Session session) {
-        session.createNativeQuery(sqlQuery);
-
-        return session.createNativeQuery(sqlQuery);
-    }
-
-    protected <T> Query<T> getQuery(Session session, Class<T> clazz) {
+    protected <T> NativeQuery<T> getNatvieQuery(Session session, Class<T> clazz, String sqlQuery) {
         NativeQuery<T> query = session.createNativeQuery(sqlQuery);
-        // Identifiable.class.isAssignableFrom(clazz) 判断clazz是否是Identifiable的
+        // 判断clazz是否是Identifiable的
+        // Identifiable.class.isAssignableFrom(clazz)
+
+        // 通过addEntity()让原生查询返回实体对象
         if ((clazz != null)) {
             query.addEntity(clazz);
         }
@@ -53,25 +59,5 @@ public class DemoSqlNativeQuery {
         if (firstname.isPresent()) {
             System.out.println("Found name: " + firstname.get());
         }
-    }
-
-    // 测试SqlQuery查询: 是否只能使用DB table的名称来做查询 ?
-    // 自定义返回的字段, 使用映射到数据库的table名称
-    private static void testSqlRawQuery(Session session) {
-        String sql = "Select name from t_second_entity";
-        String sqlQuery = "Select name from " + Sample.class.getName();
-        List<String> names = session.createNativeQuery(sqlQuery).getResultList();
-        for (String name : names) {
-            System.out.println("Found name: " + name);
-        }
-    }
-
-    // 创建SQL Query查询语句，通过addEntity()让原生查询返回实体对象
-    private static void testCreateQuery(Session session) {
-        NativeQuery query = session.createNativeQuery("Select * from t_first_entity");
-
-       // List<MyEntity> rows = session.createSQLQuery("Select * from t_first_entity")
-       //         .addEntity(MyEntity.class)
-       //         .getResultList();
     }
 }

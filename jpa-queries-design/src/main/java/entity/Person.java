@@ -2,7 +2,7 @@ package entity;
 
 import jakarta.persistence.*;
 
-@Entity(name = "jpa.annotation.entity.entity.Person")
+@Entity(name = "entity.Person")
 @Table(name = "t_person")
 public class Person {
 
