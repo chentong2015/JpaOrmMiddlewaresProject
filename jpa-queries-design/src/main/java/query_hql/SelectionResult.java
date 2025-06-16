@@ -1,4 +1,7 @@
-package entity;
+package query_hql;
+
+import entity.Person;
+import entity.Sample;
 
 // 包含查询结果的对象实例
 public class SelectionResult {

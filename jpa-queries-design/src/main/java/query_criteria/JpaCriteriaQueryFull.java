@@ -13,13 +13,11 @@ import entity.BaseEntity;
 
 import java.util.List;
 
-// TODO: 使用CriteriaQuery来实现相对复杂一点的查询语句
-public class DemoCriteriaQuery {
-
-    static StandardServiceRegistry registry = new StandardServiceRegistryBuilder().configure().build();
-    static SessionFactory sessionFactory = new MetadataSources(registry).buildMetadata().buildSessionFactory();
+public class JpaCriteriaQueryFull {
 
     public static void main(String[] args) {
+        StandardServiceRegistry registry = new StandardServiceRegistryBuilder().configure().build();
+        SessionFactory sessionFactory = new MetadataSources(registry).buildMetadata().buildSessionFactory();
         Session session = sessionFactory.openSession();
         testSelectLabel(session);
         session.close();
@@ -40,8 +38,7 @@ public class DemoCriteriaQuery {
     }
 
     // 完整的对应到SQL原生查询语句的条件
-    // Select distinct label
-    // from t_base_entity
+    // Select distinct label from t_base_entity
     // where id>=2 and id<10
     // group by label
     // order by label desc;

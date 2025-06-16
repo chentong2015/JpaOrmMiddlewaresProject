@@ -12,8 +12,7 @@ import java.util.List;
 
 public class JpaCriteriaQuery {
 
-    // TODO. 使用CriteriaQuery.createQuery(Sample.class)来创建条件查询和Entity Name没有关系 !!
-    private static void testCriteriaQuery() {
+    public static void main(String[] args) {
         EntityManager entityManager = EntityManagerHandler.getEntityManager();
         CriteriaBuilder criteriaBuilder = entityManager.getCriteriaBuilder();
         CriteriaQuery<Sample> criteriaQuery = criteriaBuilder.createQuery(Sample.class);

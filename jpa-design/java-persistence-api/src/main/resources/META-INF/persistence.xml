@@ -6,7 +6,7 @@
     <persistence-unit name="base.jpa.snapshot" transaction-type="RESOURCE_LOCAL">
         <description>Hibernate EntityManager Demo</description>
 
-        <!-- 默认的provider可以不用设置 -->
+        <!-- 默认的provider类型, 可以不用设置 -->
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
         <!-- TODO. 程序上动态的注入mapping的entity class -->

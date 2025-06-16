@@ -5,7 +5,7 @@ import org.hibernate.boot.MetadataSources;
 import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 
-public class HibernateMysqlDemo {
+public class DemoHibernate {
 
     static StandardServiceRegistry registry = new StandardServiceRegistryBuilder().configure().build();
     static SessionFactory sessionFactory = new MetadataSources(registry).buildMetadata().buildSessionFactory();

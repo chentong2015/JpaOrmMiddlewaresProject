@@ -1,4 +1,4 @@
-package query_named;
+package entity;
 
 import jakarta.persistence.*;
 import java.io.Serial;

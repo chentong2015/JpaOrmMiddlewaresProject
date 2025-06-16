@@ -2,7 +2,6 @@ package query_hql;
 
 import entity.Person;
 import entity.Sample;
-import entity.SelectionResult;
 import helper.EntityManagerHandler;
 import jakarta.persistence.EntityManager;
 import org.hibernate.Session;

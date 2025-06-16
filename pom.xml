@@ -11,6 +11,7 @@
 
     <modules>
         <module>jpa-design</module>
+        <module>jpa-queries-design</module>
         <module>orm-hibernate</module>
         <module>orm-liquibase</module>
         <module>orm-mybatis</module>
