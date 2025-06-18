@@ -1,6 +1,5 @@
 package query_named;
 
-import entity.NamedQueryEntity;
 import helper.EntityManagerHandler;
 import jakarta.persistence.EntityManager;
 

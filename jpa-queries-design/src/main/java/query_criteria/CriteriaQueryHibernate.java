@@ -11,19 +11,21 @@ import jakarta.persistence.criteria.CriteriaQuery;
 import jakarta.persistence.criteria.Root;
 import entity.BaseEntity;
 
+import java.util.Arrays;
 import java.util.List;
 
-public class JpaCriteriaQuerySession {
+public class CriteriaQueryHibernate {
 
+    // TODO. Hibernate Session依赖于[hibernate.cfg.xml]配置文件
     public static void main(String[] args) {
         StandardServiceRegistry registry = new StandardServiceRegistryBuilder().configure().build();
         SessionFactory sessionFactory = new MetadataSources(registry).buildMetadata().buildSessionFactory();
         Session session = sessionFactory.openSession();
-        testCriteriaQuerySimple(session);
+        testCriteriaQueryFull(session);
         session.close();
     }
 
-    // 创建条件查询 select * from t_entity_sample;
+    // select * from t_base_entity;
     private static void testCriteriaQuerySimple(Session session) {
         CriteriaBuilder criteriaBuilder = session.getCriteriaBuilder();
         CriteriaQuery<BaseEntity> criteriaQuery = criteriaBuilder.createQuery(BaseEntity.class);
@@ -38,7 +40,7 @@ public class JpaCriteriaQuerySession {
 
     // TODO. 定义查询字符和多个匹配条件
     // Select distinct label from t_base_entity
-    // where id>=2 and id<10
+    // where id>=2 and id<10 and count in(?,?,?)
     // group by label
     // order by label desc;
     private static void testCriteriaQueryFull(Session session) {
@@ -52,7 +54,7 @@ public class JpaCriteriaQuerySession {
         criteriaQuery.where(
                 criteriaBuilder.greaterThanOrEqualTo(root.get("id"), 2),
                 criteriaBuilder.lessThan(root.get("id"), 10),
-                criteriaBuilder.isNotEmpty(root.get("label")));
+                criteriaBuilder.isTrue(root.get("count").in(Arrays.asList(1, 2, 3))));
         criteriaQuery.groupBy(root.get("label"));
         criteriaQuery.orderBy(criteriaBuilder.desc(root.get("label")));
         // criteriaQuery.having()
@@ -62,10 +64,5 @@ public class JpaCriteriaQuerySession {
         for (String label : labels) {
             System.out.println(label);
         }
-    }
-
-    // TODO. 定义多表JOIN聚合的条件查询
-    private static void testCriteriaQueryJoin(Session session) {
-
     }
 }

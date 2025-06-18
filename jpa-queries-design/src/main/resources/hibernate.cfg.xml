@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration
+        PUBLIC "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+        <property name="connection.url">jdbc:sqlserver://localhost:1522;Database=sample;Trusted_Connection=true;</property>
+        <property name="connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+        <property name="connection.username">admin1</property>
+        <property name="connection.password">hello00</property>
+
+        <property name="hbm2ddl.auto">update</property>
+        <property name="show_sql">true</property>
+        <property name="format_sql">true</property>
+
+        <mapping class="entity.BaseEntity"/>
+        <mapping class="entity.Book"/>
+        <mapping class="entity.Person"/>
+        <mapping class="entity.Sample"/>
+        <mapping class="entity.join.KzRecord" />
+        <mapping class="entity.join.KzAddress" />
+        <mapping class="query_named.NamedQueryEntity"/>
+    </session-factory>
+</hibernate-configuration>

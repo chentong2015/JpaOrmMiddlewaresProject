@@ -1,6 +1,0 @@
-
-1. HqlQuery       标准Hibernate Query Language查询
-3. NativeQuery    提供JPA Native Sql(对应原生sql查询语句)
-2.
-https://www.baeldung.com/hibernate-entitymanager
-

@@ -10,8 +10,10 @@
         <class>entity.Book</class>
         <class>entity.Person</class>
         <class>entity.Sample</class>
+        <class>entity.join.KzRecord</class>
+        <class>entity.join.KzAddress</class>
+        <class>query_named.NamedQueryEntity</class>
 
-        <class>entity.NamedQueryEntity</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
 
         <properties>
@@ -19,10 +21,10 @@
             <property name="hibernate.hbm2ddl.auto" value="update"/>
 
             <property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect"/>
+            <property name="hibernate.connection.driver_class" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
             <property name="hibernate.connection.url" value="jdbc:sqlserver://localhost:1522;Database=sample;Trusted_Connection=true;"/>
             <property name="hibernate.connection.username" value="admin1"/>
             <property name="hibernate.connection.password" value="hello00"/>
-            <property name="hibernate.connection.driver_class" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
         </properties>
     </persistence-unit>
 </persistence>
