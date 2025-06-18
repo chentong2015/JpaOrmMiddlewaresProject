@@ -48,7 +48,6 @@ public class KzAddress {
         return "KzAddress{" +
                 "id=" + id +
                 ", address='" + address + '\'' +
-                ", kzRecord=" + kzRecord +
                 '}';
     }
 }

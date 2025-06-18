@@ -46,7 +46,12 @@ public class CriteriaQueryEntityManager {
         }
     }
 
-    // TODO. 定义多表JOIN聚合的条件查询
+    // TODO. 定义多表JOIN聚合条件查询(利用表之间的关联)
+    // SELECT k1_0.id, k1_0.NAME
+    // FROM kz_record k1_0
+    // JOIN kz_address k2_0 ON k1_0.id = k2_0.kz_record_id
+    // WHERE k2_0.address !=? AND k1_0.id <?
+    // ORDER BY k1_0.id ASC
     private static void testCriteriaQueryJoin(EntityManager entityManager) {
         CriteriaBuilder cb = entityManager.getCriteriaBuilder();
         CriteriaQuery<KzRecord> criteriaQuery = cb.createQuery(KzRecord.class);
