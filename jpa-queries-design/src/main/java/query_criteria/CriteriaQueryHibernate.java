@@ -51,6 +51,7 @@ public class CriteriaQueryHibernate {
         criteriaQuery.distinct(true);
         criteriaQuery.select(root.get("label"));
         // criteriaQuery.multiselect(root.get("id"), root.get("label"));
+
         criteriaQuery.where(
                 criteriaBuilder.greaterThanOrEqualTo(root.get("id"), 2),
                 criteriaBuilder.lessThan(root.get("id"), 10),
