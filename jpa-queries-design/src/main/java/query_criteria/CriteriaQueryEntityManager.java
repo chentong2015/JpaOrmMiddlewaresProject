@@ -13,17 +13,28 @@ import java.util.List;
 
 public class CriteriaQueryEntityManager {
 
+    // TODO. 使用Select 1查询来判断存在性
+    public static void main(String[] args) {
+        EntityManager entityManager = EntityManagerHandler.getEntityManager();
+        CriteriaBuilder cb = entityManager.getCriteriaBuilder();
+        CriteriaQuery<Integer> cq = cb.createQuery(Integer.class);
+
+        // FROM子句只查常量，需要给定Table实体来源
+        Root<Sample> root = cq.from(Sample.class);
+        cq.select(cb.literal(1));
+        cq.where(cb.equal(root.get("email"), "test@example.com"));
+
+        TypedQuery<Integer> query = entityManager.createQuery(cq);
+        List<Integer> result = query.setMaxResults(1).getResultList();
+        boolean exists = !result.isEmpty();
+        System.out.println(exists);
+    }
+
     // TODO. 使用CriteriaQuery来构建复杂SQL
     // select distinct top (?) s1_0.id, s1_0.name
     // from t_sample_entity s1_0
     // where s1_0.name=?
     // order by s1_0.name asc
-    public static void main(String[] args) {
-        EntityManager entityManager = EntityManagerHandler.getEntityManager();
-        testCriteriaQueryJoin(entityManager);
-    }
-
-    // TODO. 配置参数条件 -> 配置Query属性 -> 获取查询结果
     private static void testCriteriaQueryBase(EntityManager entityManager) {
         CriteriaBuilder criteriaBuilder = entityManager.getCriteriaBuilder();
         CriteriaQuery<Sample> criteriaQuery = criteriaBuilder.createQuery(Sample.class);
@@ -34,6 +45,7 @@ public class CriteriaQueryEntityManager {
         criteriaQuery.orderBy(criteriaBuilder.asc(root.get("name")));
         // criteriaQuery.having();
 
+        // TODO. 配置Query查询的参数
         TypedQuery<Sample> typedQuery = entityManager.createQuery(criteriaQuery);
         // typedQuery.setLockMode(LockModeType.OPTIMISTIC);
         typedQuery.setFlushMode(FlushModeType.COMMIT);
