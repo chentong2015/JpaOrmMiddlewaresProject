@@ -12,6 +12,7 @@
       <set>
         <option value="$PROJECT_DIR$/jpa-design/jakarta-persistence-api/pom.xml" />
         <option value="$PROJECT_DIR$/orm-hibernate/test-hibernate-db/pom.xml" />
+        <option value="$PROJECT_DIR$/orm-liquibase/pom.xml" />
       </set>
     </option>
   </component>

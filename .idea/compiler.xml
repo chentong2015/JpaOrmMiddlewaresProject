@@ -26,6 +26,7 @@
       <module name="jakarta-persistence-api" target="17" />
       <module name="java-reflections" target="15" />
       <module name="java-reflections-entity-parser" target="15" />
+      <module name="orm-liquibase" target="17" />
       <module name="test-hibernate-db" target="17" />
     </bytecodeTargetLevel>
   </component>
