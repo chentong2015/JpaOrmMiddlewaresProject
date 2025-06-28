@@ -78,7 +78,8 @@ public class CriteriaQueryEntityManager {
         criteriaQuery.where(restriction);
         criteriaQuery.orderBy(cb.asc(kzRecordRoot.get("id")));
 
-        List<KzRecord> kzRecordList = entityManager.createQuery(criteriaQuery).getResultList();
+        TypedQuery<KzRecord> typedQuery = entityManager.createQuery(criteriaQuery);
+        List<KzRecord> kzRecordList = typedQuery.getResultList();
         for (KzRecord kzRecord : kzRecordList) {
             System.out.println(kzRecord);
         }

@@ -1,6 +1,7 @@
 package query_named;
 
 import jakarta.persistence.*;
+
 import java.io.Serial;
 import java.io.Serializable;
 

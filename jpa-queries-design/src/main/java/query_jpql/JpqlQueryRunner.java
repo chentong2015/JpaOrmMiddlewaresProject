@@ -3,6 +3,7 @@ package query_jpql;
 import helper.EntityManagerHandler;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.Query;
+
 import java.util.List;
 import java.util.Map;
 
