@@ -10,8 +10,8 @@
         <module name="test-hibernate" />
         <module name="native-hibernate5-api-xml" />
         <module name="native-hibernate5-api-annotation" />
+        <module name="jpa-queries" />
         <module name="native-hibernate6-api-master" />
-        <module name="jpa-queries-design" />
         <module name="native-hibernate6-api" />
         <module name="mybatis-spring" />
         <module name="java-persistence-api" />

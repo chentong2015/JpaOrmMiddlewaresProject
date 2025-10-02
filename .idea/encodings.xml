@@ -5,10 +5,10 @@
     <file url="file://$PROJECT_DIR$/jpa-design/annotation-validation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jpa-design/java-persistence-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jpa-design/java-persistence-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jpa-design/jpa-queries/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jpa-design/jpa-queries/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jpa-design/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jpa-design/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jpa-queries-design/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jpa-queries-design/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jpa-queries-page/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jpa-queries-page/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/orm-hibernate/native-hibernate5-api-annotation/src/main/java" charset="UTF-8" />
