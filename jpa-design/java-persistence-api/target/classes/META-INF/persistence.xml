@@ -10,7 +10,7 @@
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
         <!-- TODO. 程序上动态的注入mapping的entity class -->
-        <class>com.entity.manager.entity.Book</class>
+        <class>com.entity.manager.entity.entity.Book</class>
         <class>com.entity.manager.entity.Employee</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
 

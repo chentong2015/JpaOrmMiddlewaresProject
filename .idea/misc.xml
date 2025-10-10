@@ -10,6 +10,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/jpa-queries-page/pom.xml" />
+        <option value="$PROJECT_DIR$/orm-hibernate/test-hibernate/pom.xml" />
         <option value="$PROJECT_DIR$/untitled/pom.xml" />
       </set>
     </option>

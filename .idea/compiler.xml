@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="annotation-validation" />
-        <module name="test-hibernate" />
         <module name="native-hibernate5-api-xml" />
         <module name="native-hibernate5-api-annotation" />
         <module name="jpa-queries" />
@@ -20,6 +19,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="jpa-queries-page" target="17" />
+      <module name="test-hibernate" target="15" />
       <module name="untitled" target="17" />
     </bytecodeTargetLevel>
   </component>

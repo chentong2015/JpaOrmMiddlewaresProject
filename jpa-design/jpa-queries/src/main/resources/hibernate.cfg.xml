@@ -15,7 +15,7 @@
         <property name="format_sql">true</property>
 
         <mapping class="entity.BaseEntity"/>
-        <mapping class="entity.Book"/>
+        <mapping class="entity.entity.Book"/>
         <mapping class="entity.Person"/>
         <mapping class="entity.Sample"/>
         <mapping class="entity.join.KzRecord" />

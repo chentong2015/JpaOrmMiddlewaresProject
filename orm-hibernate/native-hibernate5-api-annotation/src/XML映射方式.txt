@@ -1,0 +1,3 @@
+hbm.xml mapping 老版本的映射方式
+- 优点是能够保证POJO的整洁
+- 缺少是将Java Class和映射分开，同时维护两个文件(hbm.xml数量可能非常大)
