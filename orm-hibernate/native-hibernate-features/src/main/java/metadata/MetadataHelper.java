@@ -1,6 +1,5 @@
 package metadata;
 
-import identifier.factory.MyDefaultIdentifierGeneratorFactoryInitiator;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;
