@@ -1,0 +1,9 @@
+TODO. Hibernate性能优化策略
+- Caching  使用二级缓存
+- Bathing  减少网络请求
+- Fetching 控制fetch数据量
+- Flushing 刷新同步Context和DB数据
+- Locking  保证事务有效性
+
+- Inverse  关联关系的维护端，减少Update语句的执行
+- DynamicUpdate 只更新有变化的Column数据，生成高效语句

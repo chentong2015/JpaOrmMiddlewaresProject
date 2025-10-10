@@ -7,14 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="annotation-validation" />
-        <module name="native-hibernate5-api-xml" />
-        <module name="native-hibernate5-api-annotation" />
         <module name="jpa-queries" />
-        <module name="native-hibernate6-api-master" />
-        <module name="native-hibernate6-api" />
+        <module name="native-hibernate6-mapping" />
+        <module name="native-hibernate5-annotation" />
         <module name="mybatis-spring" />
+        <module name="native-hibernate5-xml" />
         <module name="java-persistence-api" />
         <module name="mybatis-core" />
+        <module name="native-hibernate-features" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
