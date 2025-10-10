@@ -316,7 +316,7 @@
         <!ATTLIST index type CDATA #IMPLIED>
         <!ATTLIST index length CDATA #IMPLIED>
 
-        <!-- Generators generate unique identifiers. The class attribute specifies a Java class
+        <!-- Generators generate unique identifier. The class attribute specifies a Java class
         implementing an id generation algorithm. -->
 
         <!ELEMENT generator (param*)>
