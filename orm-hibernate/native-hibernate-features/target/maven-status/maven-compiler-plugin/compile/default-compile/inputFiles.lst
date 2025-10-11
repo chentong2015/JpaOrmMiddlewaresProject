@@ -1,5 +1,4 @@
 C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibernate\native-hibernate-features\src\main\java\naming\strategies\MyPhysicalNamingStrategy.java
-C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibernate\native-hibernate-features\src\main\java\identifier\factory\MyDefaultIdentifierGeneratorFactoryInitiator.java
 C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibernate\native-hibernate-features\src\main\java\metadata\entity\LabelEntity.java
 C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibernate\native-hibernate-features\src\main\java\identifier\custom\StoredProcedureIdGenerator.java
 C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibernate\native-hibernate-features\src\main\java\metadata\entity\BaseEntity.java
@@ -20,7 +19,6 @@ C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibern
 C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibernate\native-hibernate-features\src\main\java\metadata\entity\BaseJpaMetadata.java
 C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibernate\native-hibernate-features\src\main\java\metadata\MetadataHelper.java
 C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibernate\native-hibernate-features\src\main\java\caching\first\level\CacheEntity.java
-C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibernate\native-hibernate-features\src\main\java\identifier\factory\MyDefaultIdentifierGeneratorFactory.java
 C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibernate\native-hibernate-features\src\main\java\identifier\custom\SequenceIdGenerator.java
 C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibernate\native-hibernate-features\src\main\java\batching\entity\Post.java
 C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibernate\native-hibernate-features\src\main\java\metadata\entity\TradeEntity.java
