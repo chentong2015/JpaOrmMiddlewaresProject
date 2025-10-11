@@ -20,7 +20,7 @@ public class DemoMultiIdEntity {
         Session session = sessionFactory.openSession();
         session.getTransaction().begin();
 
-        final TradeRefreshAuditRecordDTO record = new TradeRefreshAuditRecordDTO();
+        TradeRefreshAuditRecordDTO record = new TradeRefreshAuditRecordDTO();
         record.setTradeNumber(10L);
         record.setTimestamp(new Date());
         record.setSource(1);

@@ -1,0 +1,3 @@
+Dialect: HQL -> SQL specific
+指定hibernate所要converse到某个特定的SQL;
+<property name="hibernate.dialect">org.hibernate.dialect.XXXDialect</property>
