@@ -1,6 +1,6 @@
 package jpql_query;
 
-import EntityManagerHandler;
+import utils.EntityManagerHandler;
 import jakarta.persistence.EntityManager;
 
 import java.util.List;

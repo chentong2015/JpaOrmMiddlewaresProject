@@ -1,7 +1,7 @@
 package jpql_query;
 
 import entity.Book;
-import EntityManagerHandler;
+import utils.EntityManagerHandler;
 import jakarta.persistence.EntityManager;
 
 import java.util.List;

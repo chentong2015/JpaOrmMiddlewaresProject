@@ -1,6 +1,6 @@
 package hibernate.framework.apis.query_hql;
 
-import hibernate.framework.apis.query.hql.entity.Person;
+import hibernate.framework.apis.query_hql.entity.Person;
 import org.hibernate.Session;
 
 // TODO. 使用Session来执行HQL更新语句

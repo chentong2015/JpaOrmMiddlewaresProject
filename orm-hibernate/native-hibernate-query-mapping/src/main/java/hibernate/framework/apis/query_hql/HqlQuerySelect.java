@@ -1,7 +1,7 @@
 package hibernate.framework.apis.query_hql;
 
-import hibernate.framework.apis.query.hql.entity.Person;
-import hibernate.framework.apis.query.hql.entity.Sample;
+import hibernate.framework.apis.query_hql.entity.Person;
+import hibernate.framework.apis.query_hql.entity.Sample;
 import org.hibernate.Session;
 import org.hibernate.query.Query;
 

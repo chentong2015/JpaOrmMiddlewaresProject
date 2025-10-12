@@ -3,7 +3,7 @@ package jpa_criteria_query;
 import entity.Sample;
 import entity.join.KzAddress;
 import entity.join.KzRecord;
-import EntityManagerHandler;
+import utils.EntityManagerHandler;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.FlushModeType;
 import jakarta.persistence.TypedQuery;
