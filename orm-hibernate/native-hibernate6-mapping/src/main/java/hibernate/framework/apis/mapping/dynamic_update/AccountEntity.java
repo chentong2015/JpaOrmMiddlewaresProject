@@ -3,9 +3,11 @@ package hibernate.framework.apis.mapping.dynamic_update;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 import org.hibernate.annotations.DynamicUpdate;
 
-@Entity(name = "t_account_entity")
+@Entity
+@Table(name = "t_account_entity")
 @DynamicUpdate
 public class AccountEntity {
 

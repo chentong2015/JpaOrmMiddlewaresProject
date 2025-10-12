@@ -12,7 +12,7 @@ import org.hibernate.query.Query;
 import java.util.List;
 
 // Native Hibernate APIs(功能较多)
-public class DemoNativeHibernateAPI {
+public class HibernateNativeAPI {
 
     // .configure("hibernate.cfg.xml") 默认加载指定的配置文件，可以修改加载的文件和路径
     static StandardServiceRegistry registry = new StandardServiceRegistryBuilder().configure().build();

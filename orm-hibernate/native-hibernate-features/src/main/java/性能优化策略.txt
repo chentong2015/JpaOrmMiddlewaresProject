@@ -6,4 +6,4 @@ TODO. Hibernate性能优化策略
 - Locking  保证事务有效性
 
 - Inverse  关联关系的维护端，减少Update语句的执行
-- DynamicUpdate 只更新有变化的Column数据，生成高效语句
+- DynamicUpdate 只更新有变化的Column数据，生成特定语句
