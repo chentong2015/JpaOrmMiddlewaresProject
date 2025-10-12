@@ -1,3 +1,0 @@
-TODO. 在JPA层面生成复杂的查询语句，用于Searching场景
-JPA.CriteriaQuery  创建查询标准，指定要查询的数据类型和返回字段，指定查询策略
-Hibernate.Criteria 废弃的条件查询API(仅在旧版本中使用)

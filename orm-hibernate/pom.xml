@@ -21,7 +21,7 @@
     <modules>
         <module>native-hibernate5-annotation</module>
         <module>native-hibernate5-xml</module>
-        <module>native-hibernate6-mapping</module>
         <module>native-hibernate-features</module>
+        <module>native-hibernate-query-mapping</module>
     </modules>
 </project>

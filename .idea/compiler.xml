@@ -8,13 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="annotation-validation" />
         <module name="jpa-queries" />
-        <module name="native-hibernate6-mapping" />
         <module name="native-hibernate5-annotation" />
         <module name="mybatis-spring" />
         <module name="native-hibernate5-xml" />
         <module name="java-persistence-api" />
         <module name="mybatis-core" />
         <module name="native-hibernate-features" />
+        <module name="native-hibernate-query-mapping" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

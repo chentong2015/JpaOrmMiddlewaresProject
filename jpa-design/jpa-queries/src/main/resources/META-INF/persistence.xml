@@ -12,7 +12,7 @@
         <class>entitymanager.entity.Sample</class>
         <class>entitymanager.entity.join.KzRecord</class>
         <class>entitymanager.entity.join.KzAddress</class>
-        <class>entitymanager.query_named.NamedQueryEntity</class>
+        <class>entitymanager.jpql_query.NamedQueryEntity</class>
 
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
 
