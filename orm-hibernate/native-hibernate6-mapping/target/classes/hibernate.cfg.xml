@@ -49,7 +49,8 @@
         <mapping class="hibernate.framework.apis.mappings.map.RightsEntity"/> -->
 
         <mapping class="hibernate.framework.apis.mapping.dynamic_update.AccountEntity"/>
-        <mapping class="hibernate.framework.apis.mapping.where.Phone"/>
-        <mapping class="hibernate.framework.apis.mapping.where.WhereEntity"/>
+        <mapping class="hibernate.framework.apis.mapping.select_filter.FilterEntity"/>
+        <mapping class="hibernate.framework.apis.mapping.select_where.Phone"/>
+        <mapping class="hibernate.framework.apis.mapping.select_where.WhereEntity"/>
     </session-factory>
 </hibernate-configuration>
