@@ -19,9 +19,9 @@
     </properties>
 
     <modules>
-        <module>native-hibernate5-annotation</module>
-        <module>native-hibernate5-xml</module>
-        <module>native-hibernate-features</module>
-        <module>native-hibernate-query-mapping</module>
+        <module>hibernate5-annotations</module>
+        <module>hibernate5-xml</module>
+        <module>hibernate-features</module>
+        <module>hibernate-mapping-queries</module>
     </modules>
 </project>
