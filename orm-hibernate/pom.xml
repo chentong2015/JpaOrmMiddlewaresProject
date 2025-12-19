@@ -22,6 +22,7 @@
         <module>hibernate5-annotations</module>
         <module>hibernate5-xml</module>
         <module>hibernate-features</module>
-        <module>hibernate-mapping-queries</module>
+        <module>hibernate-mappings</module>
+        <module>hibernate-queries</module>
     </modules>
 </project>
