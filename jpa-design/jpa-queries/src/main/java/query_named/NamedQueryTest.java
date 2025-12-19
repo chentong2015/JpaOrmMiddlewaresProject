@@ -1,4 +1,4 @@
-package jpa_query_language;
+package query_named;
 
 import utils.EntityManagerHandler;
 import jakarta.persistence.EntityManager;

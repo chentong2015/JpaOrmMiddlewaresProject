@@ -1,4 +1,4 @@
-package jpa_query_language;
+package query_named;
 
 import jakarta.persistence.*;
 
