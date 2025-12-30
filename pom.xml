@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>jpa-design</module>
+        <module>jpa-api</module>
         <module>orm-hibernate</module>
         <module>orm-mybatis</module>
     </modules>

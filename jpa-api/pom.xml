@@ -4,31 +4,22 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>jpa-design</artifactId>
+        <artifactId>JpaOrmMiddlewaresProject</artifactId>
         <groupId>org.example</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+    <packaging>pom</packaging>
 
-    <artifactId>jpa-queries</artifactId>
+    <artifactId>jpa-api</artifactId>
+    <modules>
+        <module>annotation-validation</module>
+        <module>java-persistence-api</module>
+        <module>jpa-queries</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-    <dependencies>
-        <!-- TODO. hibernate v6.1包含JPA3.0, 同时兼容Jakarta Persistence V3.1版本-->
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-core</artifactId>
-            <version>6.1.5.Final</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.microsoft.sqlserver</groupId>
-            <artifactId>mssql-jdbc</artifactId>
-            <version>9.3.0.jre15-preview</version>
-        </dependency>
-    </dependencies>
 </project>

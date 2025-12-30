@@ -1,4 +1,4 @@
-package jpa_criteria_query;
+package query_criteria;
 
 import entity.Sample;
 import entity.join.KzAddress;

@@ -1,5 +1,0 @@
-com\entity\manager\handler\EntityManagerHandler.class
-com\entity\manager\entity\Book.class
-com\entity\manager\entity\Employee.class
-com\entity\manager\DemoEntityManagerApi.class
-com\entity\manager\DemoEntityManagerQuery.class
