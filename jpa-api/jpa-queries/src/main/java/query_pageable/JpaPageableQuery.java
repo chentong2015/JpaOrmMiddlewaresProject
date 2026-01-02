@@ -5,7 +5,7 @@ import utils.EntityManagerHandler;
 
 import java.util.List;
 
-// TODO. 使用JPA EntityManager实现分页查询
+// TODO. 使用JPA API实现分页查询 -> 兼容底层不同DB数据库
 public class JpaPageableQuery {
 
     public static void main(String[] args) {

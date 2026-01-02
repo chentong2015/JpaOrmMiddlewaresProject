@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="405e4515-0db3-4b07-b60b-0c8dad92c6c1" name="Changes" comment="refresh project and init jpa pageable">
+    <list default="true" id="405e4515-0db3-4b07-b60b-0c8dad92c6c1" name="Changes" comment="finish jpa pageable">
+      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_pageable/JpaPageableCriteriaQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_pageable/JpaPageableQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_pageable/JpaPageableQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_pageable/分页查询语句.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_pageable/分页查询语句.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/query_pageable/JpaPageableQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/query_pageable/JpaPageableQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_pageable/分页查询语句.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/utils/EntityManagerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/utils/EntityManagerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/src/main/java/query_pageable/HibernatePageableQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/src/main/java/query_pageable/HibernatePageableQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,9 +114,9 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.JpaPageableQuery">
-    <configuration name="JpaPageableQuery (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="JpaPageableQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="query_pageable.JpaPageableQuery" />
-      <module name="JpaOrmMiddlewaresProject" />
+      <module name="jpa-queries" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="query_pageable.*" />
@@ -126,7 +129,7 @@
     </configuration>
     <configuration name="JpaPageableQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="query_pageable.JpaPageableQuery" />
-      <module name="jpa-queries" />
+      <module name="JpaOrmMiddlewaresProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="query_pageable.*" />
@@ -204,7 +207,7 @@
       <workItem from="1767366650710" duration="237000" />
       <workItem from="1767366910086" duration="106000" />
       <workItem from="1767367034007" duration="279000" />
-      <workItem from="1767367323266" duration="5147000" />
+      <workItem from="1767367323266" duration="9459000" />
     </task>
     <task id="LOCAL-00001" summary="update jpa Criteria Query">
       <option name="closed" value="true" />
@@ -366,7 +369,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767371259062</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="finish jpa pageable">
+      <option name="closed" value="true" />
+      <created>1767372603699</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1767372603699</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,7 +412,8 @@
     <MESSAGE value="update jpa queries" />
     <MESSAGE value="update project and jpa module" />
     <MESSAGE value="refresh project and init jpa pageable" />
-    <option name="LAST_COMMIT_MESSAGE" value="refresh project and init jpa pageable" />
+    <MESSAGE value="finish jpa pageable" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish jpa pageable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

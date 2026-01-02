@@ -24,6 +24,8 @@ public class EntityManagerHandler {
         jpaProperties.put("hibernate.dialect_resolvers", "xxxDialectResolver.class.getName()");
         jpaProperties.put("hibernate.show_sql", "false");
         jpaProperties.put("hibernate.hbm2ddl.auto", "none");
+        jpaProperties.put("hibernate.jdbc.fetch_size", 1000);
+
         emf = Persistence.createEntityManagerFactory("name", jpaProperties);
         return emf.createEntityManager();
     }
