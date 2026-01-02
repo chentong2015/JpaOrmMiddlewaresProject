@@ -20,7 +20,7 @@ public class JpaPageableQuery {
     // TODO. 使用JPQL语句实现分页查询
     private static List<Product> getProductsPageableJpqlQuery() {
         EntityManager entityManager = EntityManagerHandler.getEntityManager();
-        String query = "Select p from Product p where p.price > :price";
+        String query = "Select p from Product p where p.price > :price order by p.id";
 
         return entityManager.createQuery(query, Product.class)
                 .setParameter("price", 1)
