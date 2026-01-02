@@ -9,7 +9,7 @@ public class DemoEntityManagerApi {
 
     public static void test() {
         EntityManager entityManager = EntityManagerHandler.getEntityManager();
-        Employee emp = entityManager.find(Employee.class, new Integer(1));
+        Employee emp = entityManager.find(Employee.class, 1);
         System.out.println("Name:" + emp.getName() + ", City:" + emp.getCity());
         EntityManagerHandler.close();
     }
@@ -38,7 +38,7 @@ public class DemoEntityManagerApi {
     public static void fetchEntity() {
         EntityManager entityManager = EntityManagerHandler.getEntityManager();
         //fetch entity
-        Employee emp = entityManager.find(Employee.class, new Integer(1));
+        Employee emp = entityManager.find(Employee.class, 1);
         System.out.println("Name:" + emp.getName() + "," + "City: " + emp.getCity());
         System.out.println("Contains(before detach):" + entityManager.contains(emp));
 
@@ -61,7 +61,7 @@ public class DemoEntityManagerApi {
 
     public static void removeEntity() {
         EntityManager entityManager = EntityManagerHandler.getEntityManager();
-        Employee emp = entityManager.find(Employee.class, new Integer(1));
+        Employee emp = entityManager.find(Employee.class, 1);
 
         //start removing
         entityManager.getTransaction().begin();
@@ -74,7 +74,7 @@ public class DemoEntityManagerApi {
 
     public static void updateEntity() {
         EntityManager entityManager = EntityManagerHandler.getEntityManager();
-        Employee emp = entityManager.find(Employee.class, new Integer(1));
+        Employee emp = entityManager.find(Employee.class, 1);
         System.out.println("Name:" + emp.getName() + ", City:" + emp.getCity());
 
         //start updating
@@ -83,7 +83,7 @@ public class DemoEntityManagerApi {
         emp.setCity("Allahabad");
         entityManager.getTransaction().commit();
 
-        emp = entityManager.find(Employee.class, new Integer(1));
+        emp = entityManager.find(Employee.class, 1);
         entityManager.close();
         EntityManagerHandler.close();
         System.out.println("Name:" + emp.getName() + ", City:" + emp.getCity());

@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="405e4515-0db3-4b07-b60b-0c8dad92c6c1" name="Changes" comment="update project and jpa module">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_pageable/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/entity/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/entity/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/entity/join/KzAddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/entity/join/KzRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/query_criteria/JpaCriteriaQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/query_jpql/JpaQueryLanguage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/query_named/NamedQueryEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/query_named/NamedQueryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/query_native/NativeQueryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/query_pageable/JpaPageableQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/utils/EntityManagerHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/jpa-queries-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/batching/DemoBatchingEntityManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/batching/DemoBatchingSession.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/batching/entity/Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/batching/entity/Post.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/cache/jCache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/cache/缓存配置参数.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/caching/HibernateStatistics.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/caching/first/level/CacheEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/caching/first/level/DemoFistLevelCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/caching/query_cache/DemoQueryCacheEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/caching/query_cache/QueryCacheEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/caching/second/level/DemoSecondLevelCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/caching/second/level/SecondCacheEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/dialect/DialectResolverTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/dialect/MyDialectResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/hibernate.properties.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/identifier/IdGeneratorType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/identifier/custom/EntityIdGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/identifier/custom/MyStoredTableIdGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/identifier/custom/SequenceIdGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/identifier/custom/StoredProcedureIdGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/metadata/MetadataHelper$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/metadata/MetadataHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/metadata/MetadataSourcesDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/metadata/MetadataSourcesHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/metadata/MetadataSourcesTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/metadata/entity/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/metadata/entity/BaseJpaMetadata.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/metadata/entity/BaseMetadata.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/metadata/entity/LabelEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/metadata/entity/TradeEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/metadata/metadata.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/naming/strategies/MyImplicitNamingStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/naming/strategies/MyPhysicalNamingStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/naming/strategies/MyPhysicalNamingStrategyStandardImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/hibernate-features-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/entity/books.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/entity/entity-demo.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/entity/entity-master.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/entity/entity-meta.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/HibernateNativeAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/HibernateObjectLifecycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/entity/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/entity/EntityDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/entity/EntityMaster.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/entity/EntityMasterAbstract.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/entity/EntityMasterDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/entity/EntityMeta.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/any/DemoAnyMapping.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/any/PropertyHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/any/model/IntegerProperty.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/any/model/MyProperty.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/any/model/StringProperty.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/element_collection/MasterAgreementEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/element_collection/MasterAgreementPartyEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/many/to/many/BidirectionalManyToMany.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/many/to/many/Strategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/many/to/many/Typology.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/many/to/one/UnidirectionalManyToOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/many/to/one/model/Grade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/many/to/one/model/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/many/to/one/model/StudentAddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/many/to/one/package1/Grade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/map/DemoMapCollections.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/map/PermissionsEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/map/RightsEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/map/RightsType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/multi_id_class/DemoMultiIdEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/multi_id_class/entity/SettlementInstructionGridDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/multi_id_class/entity/TradeExtensionDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/multi_id_class/entity/TradeRefreshAuditRecordDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/multi_id_class/entity/TradeRefreshAuditRecordId.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/multi_id_class/query_builder/EntityId.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/many/bidirectional/BidirectionalOneToMany.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/many/bidirectional/Grade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/many/bidirectional/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/many/unidirectional/Grade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/many/unidirectional/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/many/unidirectional/UndirectionalOneToMany.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/one/foreign/key/bidirectional/FkBidirectionalOneToOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/one/foreign/key/bidirectional/IdCard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/one/foreign/key/bidirectional/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/one/foreign/key/unidirectional/FkUnidirectionalOneToOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/one/foreign/key/unidirectional/IdCard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/one/foreign/key/unidirectional/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/one/primary/key/IdCard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/one/primary/key/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/one/primary/key/PkUnidirectionalOneToOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/session/HibernateSessionCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/session/HibernateSessionTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/session/HibernateSessionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/many.to.many/strategy.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/many.to.many/typology.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/many.to.many/双向多对多维护端.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/many.to.many/对多对数据存储.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/many.to.one.unidirectional/grade.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/many.to.one.unidirectional/package1/grade.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/many.to.one.unidirectional/student.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/many.to.one.unidirectional/studentAddress.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/one.to.many.bidirectional/grade.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/one.to.many.bidirectional/student.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/one.to.many.unidirectional/grade.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/one.to.many.unidirectional/student.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/one.to.one.foreign.key.bidirectional/idcard.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/one.to.one.foreign.key.bidirectional/person.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/one.to.one.foreign.key.unidirectional/idcard.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/one.to.one.foreign.key.unidirectional/person.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/one.to.one.primary.key/idcard.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/one.to.one.primary.key/person.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/hibernate-mappings-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_criteria/CriteriaQueryHibernate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_criteria/CriteriaQueryHibernateComplex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_criteria/entity/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_criteria/entity/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_hql/HqlQuerySelect$SelectionResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_hql/HqlQuerySelect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_hql/HqlQueryUpdate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_hql/entity/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_hql/entity/Sample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_hql/select_filter/FilterEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_hql/select_filter/FilterSelectDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_hql/select_where/Phone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_hql/select_where/WhereEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_hql/select_where/WhereSelectDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_hql/update_dynamic/AccountEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_hql/update_dynamic/DemoDynamicUpdate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_native/HibernateNativeQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_pageable/HibernatePageableQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/session/HibernateSessionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/hibernate-queries-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate5-annotations/target/hibernate5-annotations-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate5-annotations/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate5-xml/target/hibernate5-xml-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate5-xml/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-core/target/classes/source/code/LoaderMapperSql.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-core/target/classes/source/code/LoaderXmlDataSource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-core/target/classes/source/code/MyBatisProxyImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-core/target/classes/source/code/MyBatisProxyStatementHandler$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-core/target/classes/source/code/MyBatisProxyStatementHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-core/target/classes/source/code/MybatisExecutorHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-core/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-core/target/mybatis-core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-spring/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-spring/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-spring/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-spring/target/mybatis-spring-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JpaOrmMiddlewaresProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/java-persistence-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/java-persistence-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/JPA 持久化.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/JPA 持久化.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/JPA 最佳实践.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/JPA 最佳实践.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/java/com/entity/manager/DemoEntityManagerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/java/com/entity/manager/DemoEntityManagerApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/java/com/entity/manager/DemoEntityManagerQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/java/com/entity/manager/DemoEntityManagerQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_native/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/entity/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_criteria/Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_criteria/JpaCriteriaQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_criteria/JpaCriteriaQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_named/NamedQueryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_named/NamedQueryEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_native/NativeQueryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_native/NativeQueryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_pageable/JpaPageableQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_pageable/JpaPageableQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm-hibernate/hibernate-features/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm-hibernate/hibernate5-annotations/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/hibernate5-annotations/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm-hibernate/hibernate5-xml/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/hibernate5-xml/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm-hibernate/异常管理/Any 外键对应的ID.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/exceptions/Any 外键对应的ID.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm-hibernate/异常管理/Custom Type类型出错.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/exceptions/Custom Type类型出错.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm-hibernate/异常管理/Entity Mapping名称冲突.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/exceptions/Entity Mapping名称冲突.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm-hibernate/异常管理/Final Getter方法出错.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/exceptions/Final Getter方法出错.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm-hibernate/异常管理/GetId()报错.txt" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/exceptions/GetId()报错.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm-hibernate/异常管理/Hibernate JPA名称冲突.txt" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/exceptions/Hibernate JPA名称冲突.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm-hibernate/异常管理/Hibernate 常见异常.txt" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/exceptions/Hibernate 常见异常.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;chentong2015&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/chentong2015/JpaOrmMiddlewaresProject.git&quot;,
+    &quot;accountId&quot;: &quot;a6459d74-1a16-4405-876b-550152fd3c84&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="C:\Work\Softwares\Maven\apache-maven-3.8.8" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2z8iAEz7Jh1dh3OZAE37CdihSBn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DemoDynamicUpdate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FilterSelectDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HibernateNativeAPI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JpaPageableQuery (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.JpaPageableQuery.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WhereFilterDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.query_hql.select_filter.FilterSelectDemo.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Work/Work My Projects/Underlying Database/JpaOrmMiddlewaresProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Work/Work My Projects/Underlying Database/JpaOrmMiddlewaresProject/orm-hibernate/hibernate-queries/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.16158818&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3091954&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibernate\hibernate-queries\src\main\resources" />
+      <recent name="C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibernate\native-hibernate-query-mapping\src\main\java\hibernate\framework\apis\query_criteria\entity" />
+      <recent name="C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibernate\native-hibernate6-mapping\src\main\java\hibernate\framework\apis\query\hql\entity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\jpa-api" />
+      <recent name="C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibernate\hibernate-mappings\src\main\java" />
+      <recent name="C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibernate\hibernate-mappings\src\main\java\hibernate\framework\apis" />
+      <recent name="C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibernate" />
+      <recent name="C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibernate\hibernate-features\src\main\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="session" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.JpaPageableQuery">
+    <configuration name="JpaPageableQuery (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="query_pageable.JpaPageableQuery" />
+      <module name="JpaOrmMiddlewaresProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="query_pageable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpaPageableQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="query_pageable.JpaPageableQuery" />
+      <module name="jpa-queries" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="query_pageable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="validation.MainTest" />
+      <module name="JpaOrmMiddlewaresProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="validation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JpaPageableQuery" />
+        <item itemvalue="Application.JpaPageableQuery (1)" />
+        <item itemvalue="Application.MainTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="405e4515-0db3-4b07-b60b-0c8dad92c6c1" name="Changes" comment="" />
+      <created>1751118955730</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751118955730</updated>
+      <workItem from="1751118956803" duration="198000" />
+      <workItem from="1751119157535" duration="2181000" />
+      <workItem from="1751210186181" duration="4032000" />
+      <workItem from="1751552369418" duration="1350000" />
+      <workItem from="1751643339866" duration="1072000" />
+      <workItem from="1751726435953" duration="67000" />
+      <workItem from="1752659958754" duration="681000" />
+      <workItem from="1757061831626" duration="650000" />
+      <workItem from="1757075676749" duration="39000" />
+      <workItem from="1758893495390" duration="681000" />
+      <workItem from="1759424159180" duration="1997000" />
+      <workItem from="1759488979070" duration="162000" />
+      <workItem from="1759852553432" duration="161000" />
+      <workItem from="1760021823779" duration="1915000" />
+      <workItem from="1760086167402" duration="15000" />
+      <workItem from="1760106490591" duration="6577000" />
+      <workItem from="1760193724996" duration="17486000" />
+      <workItem from="1760287854275" duration="538000" />
+      <workItem from="1763828259084" duration="996000" />
+      <workItem from="1765904991125" duration="105000" />
+      <workItem from="1765961767246" duration="30000" />
+      <workItem from="1766135754634" duration="7657000" />
+      <workItem from="1767108953084" duration="624000" />
+      <workItem from="1767114580711" duration="490000" />
+      <workItem from="1767191748061" duration="1152000" />
+      <workItem from="1767362889245" duration="301000" />
+      <workItem from="1767363199291" duration="1978000" />
+      <workItem from="1767365207211" duration="1432000" />
+      <workItem from="1767366650710" duration="237000" />
+      <workItem from="1767366910086" duration="106000" />
+      <workItem from="1767367034007" duration="279000" />
+      <workItem from="1767367323266" duration="364000" />
+    </task>
+    <task id="LOCAL-00001" summary="update jpa Criteria Query">
+      <option name="closed" value="true" />
+      <created>1751134193613</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1751134193613</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update jpa design">
+      <option name="closed" value="true" />
+      <created>1759425980060</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759425980060</updated>
+    </task>
+    <task id="LOCAL-00003" summary="refresh orm project">
+      <option name="closed" value="true" />
+      <created>1760022195385</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1760022195385</updated>
+    </task>
+    <task id="LOCAL-00004" summary="delete test-hibernate module and clean project">
+      <option name="closed" value="true" />
+      <created>1760110354770</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760110354770</updated>
+    </task>
+    <task id="LOCAL-00005" summary="delete test-hibernate module and clean project">
+      <option name="closed" value="true" />
+      <created>1760110377562</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1760110377562</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update hibernate module">
+      <option name="closed" value="true" />
+      <created>1760111984763</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1760111984763</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update hibernate module">
+      <option name="closed" value="true" />
+      <created>1760112002237</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1760112002237</updated>
+    </task>
+    <task id="LOCAL-00008" summary="refresh hibernate mapping project">
+      <option name="closed" value="true" />
+      <created>1760194426985</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1760194426985</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add hibernate dynamic update for entity">
+      <option name="closed" value="true" />
+      <created>1760200444412</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1760200444412</updated>
+    </task>
+    <task id="LOCAL-00010" summary="finish hibernate where select">
+      <option name="closed" value="true" />
+      <created>1760281780771</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1760281780771</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update hibernate filter select">
+      <option name="closed" value="true" />
+      <created>1760283164451</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1760283164451</updated>
+    </task>
+    <task id="LOCAL-00012" summary="refresh project">
+      <option name="closed" value="true" />
+      <created>1760283257533</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1760283257533</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update jpa and hibernate queries">
+      <option name="closed" value="true" />
+      <created>1760287168786</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1760287168786</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update jpa and hibernate queries">
+      <option name="closed" value="true" />
+      <created>1760288342272</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1760288342272</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update orm hibernate module names">
+      <option name="closed" value="true" />
+      <created>1763831605144</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1763831605144</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update hibernate mappings and queries">
+      <option name="closed" value="true" />
+      <created>1766141079897</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1766141079897</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update jpa queries">
+      <option name="closed" value="true" />
+      <created>1766159003765</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1766159003765</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update project and jpa module">
+      <option name="closed" value="true" />
+      <created>1767115034519</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1767115034519</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
+    <MESSAGE value="update jpa Criteria Query" />
+    <MESSAGE value="update jpa design" />
+    <MESSAGE value="refresh orm project" />
+    <MESSAGE value="delete test-hibernate module and clean project" />
+    <MESSAGE value="update hibernate module" />
+    <MESSAGE value="refresh hibernate mapping project" />
+    <MESSAGE value="add hibernate dynamic update for entity" />
+    <MESSAGE value="finish hibernate where select" />
+    <MESSAGE value="update hibernate filter select" />
+    <MESSAGE value="refresh project" />
+    <MESSAGE value="update jpa and hibernate queries" />
+    <MESSAGE value="update orm hibernate module names" />
+    <MESSAGE value="update hibernate mappings and queries" />
+    <MESSAGE value="update jpa queries" />
+    <MESSAGE value="update project and jpa module" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project and jpa module" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jpa-queries-page/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/orm-hibernate/hibernate-queries/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,7 @@
+com\mybatis\spring\dao\UserMapper.class
+com\mybatis\spring\base\InstanceA.class
+com\mybatis\spring\model\User.class
+com\mybatis\spring\MyBatisConfig.class
+com\mybatis\spring\service\UserService.class
+com\mybatis\spring\base\MyDataSource.class
+com\mybatis\spring\base\InstanceB.class

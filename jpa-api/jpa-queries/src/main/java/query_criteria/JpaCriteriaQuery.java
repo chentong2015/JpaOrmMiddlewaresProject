@@ -1,6 +1,5 @@
 package query_criteria;
 
-import entity.Sample;
 import entity.join.KzAddress;
 import entity.join.KzRecord;
 import utils.EntityManagerHandler;

@@ -1,6 +1,5 @@
 package query_native;
 
-import entity.Book;
 import utils.EntityManagerHandler;
 import jakarta.persistence.EntityManager;
 

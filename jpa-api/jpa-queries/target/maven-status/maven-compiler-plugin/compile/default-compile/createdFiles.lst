@@ -1,0 +1,14 @@
+query_named\NamedQueryTest.class
+entity\join\KzAddress.class
+query_pageable\Product.class
+query_native\Book.class
+entity\Person.class
+query_jpql\JpaQueryLanguage.class
+query_named\NamedQueryEntity.class
+query_native\NativeQueryTest.class
+entity\BaseEntity.class
+entity\join\KzRecord.class
+query_criteria\Sample.class
+query_criteria\JpaCriteriaQuery.class
+query_pageable\JpaPageableQuery.class
+utils\EntityManagerHandler.class
