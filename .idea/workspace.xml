@@ -4,217 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="405e4515-0db3-4b07-b60b-0c8dad92c6c1" name="Changes" comment="update project and jpa module">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_pageable/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/entity/BaseEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/entity/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/entity/join/KzAddress.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/entity/join/KzRecord.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/query_criteria/JpaCriteriaQuery.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/query_jpql/JpaQueryLanguage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/query_named/NamedQueryEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/query_named/NamedQueryTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/query_native/NativeQueryTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/query_pageable/JpaPageableQuery.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/utils/EntityManagerHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/jpa-queries-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/batching/DemoBatchingEntityManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/batching/DemoBatchingSession.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/batching/entity/Comment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/batching/entity/Post.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/cache/jCache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/cache/缓存配置参数.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/caching/HibernateStatistics.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/caching/first/level/CacheEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/caching/first/level/DemoFistLevelCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/caching/query_cache/DemoQueryCacheEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/caching/query_cache/QueryCacheEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/caching/second/level/DemoSecondLevelCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/caching/second/level/SecondCacheEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/dialect/DialectResolverTemplate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/dialect/MyDialectResolver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/hibernate.properties.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/identifier/IdGeneratorType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/identifier/custom/EntityIdGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/identifier/custom/MyStoredTableIdGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/identifier/custom/SequenceIdGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/identifier/custom/StoredProcedureIdGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/metadata/MetadataHelper$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/metadata/MetadataHelper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/metadata/MetadataSourcesDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/metadata/MetadataSourcesHelper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/metadata/MetadataSourcesTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/metadata/entity/BaseEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/metadata/entity/BaseJpaMetadata.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/metadata/entity/BaseMetadata.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/metadata/entity/LabelEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/metadata/entity/TradeEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/metadata/metadata.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/naming/strategies/MyImplicitNamingStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/naming/strategies/MyPhysicalNamingStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/classes/naming/strategies/MyPhysicalNamingStrategyStandardImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/hibernate-features-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/entity/books.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/entity/entity-demo.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/entity/entity-master.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/entity/entity-meta.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/HibernateNativeAPI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/HibernateObjectLifecycle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/entity/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/entity/EntityDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/entity/EntityMaster.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/entity/EntityMasterAbstract.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/entity/EntityMasterDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/entity/EntityMeta.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/any/DemoAnyMapping.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/any/PropertyHolder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/any/model/IntegerProperty.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/any/model/MyProperty.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/any/model/StringProperty.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/element_collection/MasterAgreementEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/element_collection/MasterAgreementPartyEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/many/to/many/BidirectionalManyToMany.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/many/to/many/Strategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/many/to/many/Typology.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/many/to/one/UnidirectionalManyToOne.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/many/to/one/model/Grade.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/many/to/one/model/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/many/to/one/model/StudentAddress.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/many/to/one/package1/Grade.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/map/DemoMapCollections.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/map/PermissionsEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/map/RightsEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/map/RightsType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/multi_id_class/DemoMultiIdEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/multi_id_class/entity/SettlementInstructionGridDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/multi_id_class/entity/TradeExtensionDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/multi_id_class/entity/TradeRefreshAuditRecordDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/multi_id_class/entity/TradeRefreshAuditRecordId.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/multi_id_class/query_builder/EntityId.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/many/bidirectional/BidirectionalOneToMany.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/many/bidirectional/Grade.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/many/bidirectional/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/many/unidirectional/Grade.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/many/unidirectional/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/many/unidirectional/UndirectionalOneToMany.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/one/foreign/key/bidirectional/FkBidirectionalOneToOne.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/one/foreign/key/bidirectional/IdCard.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/one/foreign/key/bidirectional/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/one/foreign/key/unidirectional/FkUnidirectionalOneToOne.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/one/foreign/key/unidirectional/IdCard.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/one/foreign/key/unidirectional/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/one/primary/key/IdCard.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/one/primary/key/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/mappings/one/to/one/primary/key/PkUnidirectionalOneToOne.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/session/HibernateSessionCallback.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/session/HibernateSessionTemplate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/hibernate/framework/apis/session/HibernateSessionUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/many.to.many/strategy.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/many.to.many/typology.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/many.to.many/双向多对多维护端.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/many.to.many/对多对数据存储.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/many.to.one.unidirectional/grade.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/many.to.one.unidirectional/package1/grade.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/many.to.one.unidirectional/student.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/many.to.one.unidirectional/studentAddress.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/one.to.many.bidirectional/grade.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/one.to.many.bidirectional/student.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/one.to.many.unidirectional/grade.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/one.to.many.unidirectional/student.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/one.to.one.foreign.key.bidirectional/idcard.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/one.to.one.foreign.key.bidirectional/person.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/one.to.one.foreign.key.unidirectional/idcard.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/one.to.one.foreign.key.unidirectional/person.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/one.to.one.primary.key/idcard.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/classes/mappings/one.to.one.primary.key/person.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/hibernate-mappings-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_criteria/CriteriaQueryHibernate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_criteria/CriteriaQueryHibernateComplex.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_criteria/entity/BaseEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_criteria/entity/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_hql/HqlQuerySelect$SelectionResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_hql/HqlQuerySelect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_hql/HqlQueryUpdate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_hql/entity/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_hql/entity/Sample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_hql/select_filter/FilterEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_hql/select_filter/FilterSelectDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_hql/select_where/Phone.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_hql/select_where/WhereEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_hql/select_where/WhereSelectDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_hql/update_dynamic/AccountEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_hql/update_dynamic/DemoDynamicUpdate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_native/HibernateNativeQuery.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/query_pageable/HibernatePageableQuery.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/classes/session/HibernateSessionUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/hibernate-queries-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate5-annotations/target/hibernate5-annotations-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate5-annotations/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate5-xml/target/hibernate5-xml-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate5-xml/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-core/target/classes/source/code/LoaderMapperSql.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-core/target/classes/source/code/LoaderXmlDataSource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-core/target/classes/source/code/MyBatisProxyImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-core/target/classes/source/code/MyBatisProxyStatementHandler$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-core/target/classes/source/code/MyBatisProxyStatementHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-core/target/classes/source/code/MybatisExecutorHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-core/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-core/target/mybatis-core-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-spring/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-spring/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-spring/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm-mybatis/mybatis-spring/target/mybatis-spring-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JpaOrmMiddlewaresProject.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-api/java-persistence-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/java-persistence-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/JPA 持久化.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/JPA 持久化.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/JPA 最佳实践.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/JPA 最佳实践.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/java/com/entity/manager/DemoEntityManagerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/java/com/entity/manager/DemoEntityManagerApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/java/com/entity/manager/DemoEntityManagerQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/java/com/entity/manager/DemoEntityManagerQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+    <list default="true" id="405e4515-0db3-4b07-b60b-0c8dad92c6c1" name="Changes" comment="refresh project and init jpa pageable">
+      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_pageable/分页查询语句.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_native/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/entity/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_criteria/Sample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_criteria/JpaCriteriaQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_criteria/JpaCriteriaQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_named/NamedQueryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_named/NamedQueryEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_native/NativeQueryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_native/NativeQueryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_pageable/JpaPageableQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_pageable/JpaPageableQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm-hibernate/hibernate-features/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-features/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-mappings/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm-hibernate/hibernate5-annotations/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/hibernate5-annotations/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm-hibernate/hibernate5-xml/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/hibernate5-xml/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm-hibernate/异常管理/Any 外键对应的ID.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/exceptions/Any 外键对应的ID.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm-hibernate/异常管理/Custom Type类型出错.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/exceptions/Custom Type类型出错.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm-hibernate/异常管理/Entity Mapping名称冲突.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/exceptions/Entity Mapping名称冲突.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm-hibernate/异常管理/Final Getter方法出错.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/exceptions/Final Getter方法出错.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm-hibernate/异常管理/GetId()报错.txt" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/exceptions/GetId()报错.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm-hibernate/异常管理/Hibernate JPA名称冲突.txt" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/exceptions/Hibernate JPA名称冲突.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm-hibernate/异常管理/Hibernate 常见异常.txt" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/exceptions/Hibernate 常见异常.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/query_pageable/JpaPageableQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/query_pageable/JpaPageableQuery.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -410,7 +207,7 @@
       <workItem from="1767366650710" duration="237000" />
       <workItem from="1767366910086" duration="106000" />
       <workItem from="1767367034007" duration="279000" />
-      <workItem from="1767367323266" duration="364000" />
+      <workItem from="1767367323266" duration="3896000" />
     </task>
     <task id="LOCAL-00001" summary="update jpa Criteria Query">
       <option name="closed" value="true" />
@@ -556,7 +353,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767115034519</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="refresh project and init jpa pageable">
+      <option name="closed" value="true" />
+      <created>1767367725519</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1767367725519</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -590,7 +395,8 @@
     <MESSAGE value="update hibernate mappings and queries" />
     <MESSAGE value="update jpa queries" />
     <MESSAGE value="update project and jpa module" />
-    <option name="LAST_COMMIT_MESSAGE" value="update project and jpa module" />
+    <MESSAGE value="refresh project and init jpa pageable" />
+    <option name="LAST_COMMIT_MESSAGE" value="refresh project and init jpa pageable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
