@@ -20,5 +20,6 @@
         <mapping class="query_hql.select_filter.FilterEntity"/>
         <mapping class="query_hql.select_where.Phone"/>
         <mapping class="query_hql.select_where.WhereEntity"/>
+        <mapping class="query_pageable.Product"/>
     </session-factory>
 </hibernate-configuration>

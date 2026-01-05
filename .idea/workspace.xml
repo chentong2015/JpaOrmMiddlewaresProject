@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="405e4515-0db3-4b07-b60b-0c8dad92c6c1" name="Changes" comment="finish jpa pageable">
-      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_pageable/JpaPageableCriteriaQuery.java" afterDir="false" />
+    <list default="true" id="405e4515-0db3-4b07-b60b-0c8dad92c6c1" name="Changes" comment="finish jpa pageable query">
+      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/src/main/java/query_pageable/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_pageable/JpaPageableQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_pageable/JpaPageableQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_pageable/分页查询语句.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/utils/EntityManagerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/utils/EntityManagerHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/src/main/java/query_pageable/HibernatePageableQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/src/main/java/query_pageable/HibernatePageableQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
@@ -64,35 +61,36 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.DemoDynamicUpdate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FilterSelectDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HibernateNativeAPI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JpaPageableQuery (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.JpaPageableQuery.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WhereFilterDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.query_hql.select_filter.FilterSelectDemo.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Work/Work My Projects/Underlying Database/JpaOrmMiddlewaresProject&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Work/Work My Projects/Underlying Database/JpaOrmMiddlewaresProject/orm-hibernate/hibernate-queries/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.16158818&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.3091954&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DemoDynamicUpdate.executor": "Run",
+    "Application.FilterSelectDemo.executor": "Run",
+    "Application.HibernateNativeAPI.executor": "Run",
+    "Application.HibernatePageableQuery.executor": "Run",
+    "Application.JpaPageableQuery (1).executor": "Run",
+    "Application.JpaPageableQuery.executor": "Run",
+    "Application.MainTest.executor": "Run",
+    "Application.WhereFilterDemo.executor": "Run",
+    "Application.query_hql.select_filter.FilterSelectDemo.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Work/Work My Projects/Underlying Database/JpaOrmMiddlewaresProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Work/Work My Projects/Underlying Database/JpaOrmMiddlewaresProject/orm-hibernate/hibernate-queries/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.16158818",
+    "project.structure.side.proportion": "0.3091954",
+    "settings.editor.selected.configurable": "project.propCompiler",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibernate\hibernate-queries\src\main\resources" />
@@ -110,10 +108,24 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="query_pageable" />
       <recent name="session" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JpaPageableQuery">
+  <component name="RunManager" selected="Application.HibernatePageableQuery">
+    <configuration name="HibernatePageableQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="query_pageable.HibernatePageableQuery" />
+      <module name="hibernate-queries" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="query_pageable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JpaPageableQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="query_pageable.JpaPageableQuery" />
       <module name="jpa-queries" />
@@ -155,8 +167,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HibernatePageableQuery" />
         <item itemvalue="Application.JpaPageableQuery" />
-        <item itemvalue="Application.JpaPageableQuery (1)" />
         <item itemvalue="Application.MainTest" />
       </list>
     </recent_temporary>
@@ -207,7 +219,8 @@
       <workItem from="1767366650710" duration="237000" />
       <workItem from="1767366910086" duration="106000" />
       <workItem from="1767367034007" duration="279000" />
-      <workItem from="1767367323266" duration="9459000" />
+      <workItem from="1767367323266" duration="9522000" />
+      <workItem from="1767620333564" duration="1182000" />
     </task>
     <task id="LOCAL-00001" summary="update jpa Criteria Query">
       <option name="closed" value="true" />
@@ -377,7 +390,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767372603699</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="finish jpa pageable query">
+      <option name="closed" value="true" />
+      <created>1767377126029</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1767377126029</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,7 +434,8 @@
     <MESSAGE value="update project and jpa module" />
     <MESSAGE value="refresh project and init jpa pageable" />
     <MESSAGE value="finish jpa pageable" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish jpa pageable" />
+    <MESSAGE value="finish jpa pageable query" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish jpa pageable query" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
