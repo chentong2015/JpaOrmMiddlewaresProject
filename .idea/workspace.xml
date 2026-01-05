@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="405e4515-0db3-4b07-b60b-0c8dad92c6c1" name="Changes" comment="finish jpa pageable query">
-      <change afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/src/main/java/query_pageable/Product.java" afterDir="false" />
+    <list default="true" id="405e4515-0db3-4b07-b60b-0c8dad92c6c1" name="Changes" comment="add hibernate pageable query">
+      <change afterPath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/java/com/entity/manager/threadsafe/EntityManagerThreadSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/java/com/entity/manager/threadsafe/线程安全问题.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/src/main/java/query_pageable/HibernatePageableQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/src/main/java/query_pageable/HibernatePageableQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/java-persistence-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/java-persistence-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/java/com/entity/manager/DemoEntityManagerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/java/com/entity/manager/DemoEntityManagerApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/java/com/entity/manager/DemoEntityManagerQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/java/com/entity/manager/DemoEntityManagerQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/java/com/entity/manager/handler/EntityManagerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/java/com/entity/manager/EntityManagerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +224,7 @@
       <workItem from="1767366910086" duration="106000" />
       <workItem from="1767367034007" duration="279000" />
       <workItem from="1767367323266" duration="9522000" />
-      <workItem from="1767620333564" duration="1182000" />
+      <workItem from="1767620333564" duration="3763000" />
     </task>
     <task id="LOCAL-00001" summary="update jpa Criteria Query">
       <option name="closed" value="true" />
@@ -398,7 +402,23 @@
       <option name="project" value="LOCAL" />
       <updated>1767377126029</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add hibernate pageable query">
+      <option name="closed" value="true" />
+      <created>1767621559194</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1767621559194</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add hibernate pageable query">
+      <option name="closed" value="true" />
+      <created>1767621563646</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1767621563646</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +455,8 @@
     <MESSAGE value="refresh project and init jpa pageable" />
     <MESSAGE value="finish jpa pageable" />
     <MESSAGE value="finish jpa pageable query" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish jpa pageable query" />
+    <MESSAGE value="add hibernate pageable query" />
+    <option name="LAST_COMMIT_MESSAGE" value="add hibernate pageable query" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

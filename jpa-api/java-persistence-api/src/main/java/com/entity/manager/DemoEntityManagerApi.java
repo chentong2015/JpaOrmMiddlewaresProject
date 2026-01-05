@@ -1,13 +1,12 @@
 package com.entity.manager;
 
 import com.entity.manager.entity.Employee;
-import com.entity.manager.handler.EntityManagerHandler;
 
 import javax.persistence.EntityManager;
 
 public class DemoEntityManagerApi {
 
-    public static void test() {
+    public static void main(String[] args) {
         EntityManager entityManager = EntityManagerHandler.getEntityManager();
         Employee emp = entityManager.find(Employee.class, 1);
         System.out.println("Name:" + emp.getName() + ", City:" + emp.getCity());

@@ -1,7 +1,6 @@
 package com.entity.manager;
 
 import com.entity.manager.entity.Book;
-import com.entity.manager.handler.EntityManagerHandler;
 
 import javax.persistence.EntityManager;
 import java.util.List;

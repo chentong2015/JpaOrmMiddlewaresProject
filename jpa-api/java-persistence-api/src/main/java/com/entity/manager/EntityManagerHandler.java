@@ -1,4 +1,4 @@
-package com.entity.manager.handler;
+package com.entity.manager;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
