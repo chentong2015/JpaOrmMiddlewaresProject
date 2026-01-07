@@ -13,9 +13,9 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import java.util.Arrays;
 import java.util.List;
 
+// TODO. Hibernate的复杂条件查询基于JPA CriteriaQuery查询
 public class CriteriaQueryHibernate {
 
-    // TODO. Hibernate Session依赖于[hibernate.cfg.xml]配置文件
     public static void main(String[] args) {
         StandardServiceRegistry registry = new StandardServiceRegistryBuilder().configure().build();
         SessionFactory sessionFactory = new MetadataSources(registry).buildMetadata().buildSessionFactory();

@@ -7,8 +7,7 @@ import jakarta.persistence.Query;
 import java.util.List;
 import java.util.Map;
 
-// Jpql: JPA Query Language
-// @Query() 针对JPA API的查询语句
+// TODO. JPA Query Language 查询语句基于Entity Name名称(面向对象)
 public class JpaQueryLanguage {
 
     public <T> List<T> runJpqlQuery(String jpqlString, Map<String, Object> parameters) {

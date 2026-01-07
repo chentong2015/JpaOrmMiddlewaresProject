@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="405e4515-0db3-4b07-b60b-0c8dad92c6c1" name="Changes" comment="add hibernate pageable query">
-      <change afterPath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/java/com/entity/manager/threadsafe/EntityManagerThreadSafe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/java/com/entity/manager/threadsafe/线程安全问题.txt" afterDir="false" />
+    <list default="true" id="405e4515-0db3-4b07-b60b-0c8dad92c6c1" name="Changes" comment="update entity manager thread safe">
+      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_stream/JPA流式查询.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_stream/JpaQueryStreamLazy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-api/java-persistence-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/java-persistence-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/java/com/entity/manager/DemoEntityManagerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/java/com/entity/manager/DemoEntityManagerApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/java/com/entity/manager/DemoEntityManagerQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/java/com/entity/manager/DemoEntityManagerQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/java/com/entity/manager/handler/EntityManagerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/java/com/entity/manager/EntityManagerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/java-persistence-api/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_jpql/JpaQueryLanguage.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/src/main/java/query_jpql/JpaQueryLanguage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/query_jpql/JpaQueryLanguage.class" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/query_jpql/JpaQueryLanguage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/utils/EntityManagerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-api/jpa-queries/target/classes/utils/EntityManagerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/src/main/java/query_criteria/CriteriaQueryHibernate.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/src/main/java/query_criteria/CriteriaQueryHibernate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/src/main/java/query_hql/HQL查询语言.txt" beforeDir="false" afterPath="$PROJECT_DIR$/orm-hibernate/hibernate-queries/src/main/java/query_hql/HQL查询语言.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +73,7 @@
     "Application.HibernatePageableQuery.executor": "Run",
     "Application.JpaPageableQuery (1).executor": "Run",
     "Application.JpaPageableQuery.executor": "Run",
+    "Application.JpaQueryStreamLazy.executor": "Run",
     "Application.MainTest.executor": "Run",
     "Application.WhereFilterDemo.executor": "Run",
     "Application.query_hql.select_filter.FilterSelectDemo.executor": "Run",
@@ -102,11 +103,11 @@
       <recent name="C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibernate\native-hibernate6-mapping\src\main\java\hibernate\framework\apis\query\hql\entity" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\jpa-api\jpa-queries\src\main\java\query_stream" />
       <recent name="C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\jpa-api" />
       <recent name="C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibernate\hibernate-mappings\src\main\java" />
       <recent name="C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibernate\hibernate-mappings\src\main\java\hibernate\framework\apis" />
       <recent name="C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibernate" />
-      <recent name="C:\Work\Work My Projects\Underlying Database\JpaOrmMiddlewaresProject\orm-hibernate\hibernate-features\src\main\java" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -116,7 +117,7 @@
       <recent name="session" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HibernatePageableQuery">
+  <component name="RunManager" selected="Application.JpaQueryStreamLazy">
     <configuration name="HibernatePageableQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="query_pageable.HibernatePageableQuery" />
       <module name="hibernate-queries" />
@@ -156,6 +157,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JpaQueryStreamLazy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="query_stream.JpaQueryStreamLazy" />
+      <module name="jpa-queries" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="query_stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="validation.MainTest" />
       <module name="JpaOrmMiddlewaresProject" />
@@ -171,6 +185,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JpaQueryStreamLazy" />
         <item itemvalue="Application.HibernatePageableQuery" />
         <item itemvalue="Application.JpaPageableQuery" />
         <item itemvalue="Application.MainTest" />
@@ -224,7 +239,9 @@
       <workItem from="1767366910086" duration="106000" />
       <workItem from="1767367034007" duration="279000" />
       <workItem from="1767367323266" duration="9522000" />
-      <workItem from="1767620333564" duration="3763000" />
+      <workItem from="1767620333564" duration="8127000" />
+      <workItem from="1767689949428" duration="3000" />
+      <workItem from="1767779490071" duration="9176000" />
     </task>
     <task id="LOCAL-00001" summary="update jpa Criteria Query">
       <option name="closed" value="true" />
@@ -418,7 +435,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767621563646</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="update entity manager thread safe">
+      <option name="closed" value="true" />
+      <created>1767625110950</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1767625110950</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +481,8 @@
     <MESSAGE value="finish jpa pageable" />
     <MESSAGE value="finish jpa pageable query" />
     <MESSAGE value="add hibernate pageable query" />
-    <option name="LAST_COMMIT_MESSAGE" value="add hibernate pageable query" />
+    <MESSAGE value="update entity manager thread safe" />
+    <option name="LAST_COMMIT_MESSAGE" value="update entity manager thread safe" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
